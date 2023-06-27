@@ -31,3 +31,4 @@ tags
 /test/init/
 /test/fakekey
 .vscode/
+dropbear.tar.gz
