@@ -106,7 +106,7 @@ IMPORTANT: Some options will require "make clean" after changes */
  * generally faster than AES256 on CPU w/o dedicated AES instructions,
  * having the same key size. Recommended.
  * Compiling in will add ~5,5kB to binary size on x86-64 */
-#define DROPBEAR_CHACHA20POLY1305 1
+#define DROPBEAR_CHACHA20POLY1305 0
 
 /* Enable "Counter Mode" for ciphers. Recommended. */
 #define DROPBEAR_ENABLE_CTR_MODE 1
